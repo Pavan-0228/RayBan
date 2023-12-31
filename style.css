@@ -1,0 +1,141 @@
+@font-face {
+    font-family: kajiro;
+    src: url(./Kajiro\ Bold.ttf);
+}
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #ffff;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+}
+.back img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.content{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1500px;
+    padding: 20px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a{
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9vw;
+    font-weight: 600;
+    color: #ffff;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.nav-left img{
+    width: 100px;
+    object-fit: cover;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    transform: translate(0,-50%);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-l{
+    width: 50%;
+}
+.elem{
+    height: 9vw;
+    position: relative;
+    overflow: hidden;
+}
+.elem h1:nth-child(1){
+    top: 0;
+}
+.elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-family: kajiro;
+    font-size: 11vw;
+    font-weight: 100;
+    line-height: .9;
+}
+.hero-l button{
+    pointer-events: all;
+    padding: .8vw 3vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    background-color: #fff;
+    color: black;
+    border: none;
+    font-family: kajiro;
+}
+.hero-r{
+    width: 20%;
+    color: #fff;
+    text-align: right;
+}
+.hero-r p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+}
+.imgdiv{
+    width: 100%;
+    height: 170px;
+    margin: 30px 0;
+    background-image: url(https://media.istockphoto.com/id/1150372363/photo/an-ambassador-taxi-is-parked-on-the-streets-in-kolcata-the-ambassador-taxi-is-no-more-built.jpg?s=1024x1024&w=is&k=20&c=jontfEkKl30mdZOlNftHMv_DvwxlUBXSZgfYbOLVd2Y=);
+    opacity: .8;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-r p:nth-child(3){
+    margin-bottom: 78px;
+}
