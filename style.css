@@ -1,10 +1,10 @@
 @font-face {
     font-family: kajiro;
-    src: url(./Kajiro\ Bold.ttf);
+    src: url(./Kajiro\ Bold.woff2);
 }
 @font-face {
     font-family: gilroy;
-    src: url(./Gilroy-Regular.ttf);
+    src: url(./Gilroy-Regular.woff2);
 }
 *{
     padding: 0;
